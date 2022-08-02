@@ -1,0 +1,30 @@
+.hello {
+    color: green;
+}
+
+.hello:hover {
+    color: paleturquoise;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hello:active {
+    color: coral;
+    font-style: italic;
+}
+
+.hello:visited {
+    color: red;
+}
+
+li:last-child a {
+    color: fuchsia;
+}
+
+li:nth-child(3n + 1) a {
+    color: khaki;
+}
+
+li:nth-child(even) a:hover {
+    color: red;
+}

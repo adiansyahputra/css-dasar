@@ -1,0 +1,29 @@
+/* Specificity 
+0 0 0 0
+id = #
+class = .
+inline id class elementHtml */
+
+p {
+    color: green;
+}
+
+#p1 {
+    color: yellow;
+}
+
+p {
+    color: red;
+}
+
+p {
+    color: aqua;
+}
+
+ul#sarapan li {
+    color: green;
+}
+
+ul#sarapan li.favorit {
+    color: red;
+}
